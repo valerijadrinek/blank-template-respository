@@ -33,7 +33,7 @@ function newQuote() {
     authorText.textContent = quote.author;
  }
     // Check quote length to determine styling
-    if (quote.text.length > 130) {
+    if (quote.text.length > 160) {
         quoteText.classList.add('long-quote');
     } else {
         quoteText.classList.remove('long-quote');
