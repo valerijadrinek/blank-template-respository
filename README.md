@@ -1,28 +1,29 @@
 # Quote generator
 
-## Login
+## Quote generator loading page
 
 To get access to the app's content you need to run it into your browser.
 
-![main screen](./assets/header-image.png "main screen")
+![initial page](./assets/quote-generator-initial-page.png "initial page")
+
 
 
 
 ## Content
 
-After loading page, first 30 random images will appear under headline.
+After loading page, first quote randomly appears from fetched API. 
 
-All images will have title that is displayed when user hovers over an image. 
+![long quote](./assets/long-quote-with-hover-over-btn.png "long quote")
 
-![title image](./assets/title-image.png "title image")
+To get another randomly fetched and displayed quote, user must click on the button \"New quote\".
 
 
 
-...and are used to be a link to unsplash page with the picture and an author.
+...clicking on twitter button will direct user to his user account on twitter where he can tweet the quote.
 
-![link unsplash](./assets/link-unsplash.png "link unsplash")
+![twitter button](./assets/quote-with-twitter.png "twitter button")
 
-After scrolling close to the bottom, new random images will appear. 
+
 
 
 # 👉 Built with
@@ -32,5 +33,5 @@ After scrolling close to the bottom, new random images will appear.
 
 # 💻 Development
 1. run index.html on your browser
-2. git clone https://github.com/valerijadrinek/image-gallery.git
-3. github pages https://valerijadrinek.github.io/image-gallery/
+2. git clone https://github.com/valerijadrinek/quote-generator.git
+3. github pages https://valerijadrinek.github.io/quote-generator/
